@@ -114,7 +114,8 @@ HOW TO RUN
     
     **Sample-Run**
     
-    `$ java –jar clientInterface.jar localhost 6789 glass.jpg`
+    ```
+    $ java –jar clientInterface.jar localhost 6789 glass.jpg
     
     #Message is displayed on successful connection….Wait for it!
     
@@ -124,6 +125,7 @@ HOW TO RUN
     REPLACE "glass.jpg";  
     PERFORM INVERT_COLOR;  
     RECEIVE "proc1.jpg";  
-    CLOSE;  
+    CLOSE;
     
-    (Press Ctrl-D if Linux or Ctrl-Z if Windows followed by Enter to stop input and query processing)	  
+    (Press Ctrl-D if Linux or Ctrl-Z if Windows followed by Enter to stop input and query processing)
+    ```	  
